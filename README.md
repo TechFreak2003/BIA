@@ -83,7 +83,7 @@ GROQ_API_KEY = "your-groq-api-key"
 
 The application requires the following tables in your Supabase database:
 
-![database schema](https://raw.githubusercontent.com/TechFreak2003/hia/main/public/db/schema.png)
+![database schema](https://github.com/TechFreak2003/BIA/blob/main/schema.png)
 
 You can use the SQL script provided at `public/db/script.sql` <a href="https://www.github.com/TechFreak2003/hia/blob/main/public/db/script.sql">[link]</a> to set up the required database schema.
 
