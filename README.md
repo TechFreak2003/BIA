@@ -3,9 +3,9 @@
 AI Agent to analyze blood reports and provide detailed health insights.
 
 <p align="center">
-  <a href="https://github.com/harshhh28/hia/issues"><img src="https://img.shields.io/github/issues/harshhh28/hia"></a> 
-  <a href="https://github.com/harshhh28/hia/stargazers"><img src="https://img.shields.io/github/stars/harshhh28/hia"></a>
-  <a href="https://github.com/harshhh28/hia/blob/main/LICENSE">
+  <a href="https://github.com/TechFreak2003/hia/issues"><img src="https://img.shields.io/github/issues/TechFreak2003/hia"></a> 
+  <a href="https://github.com/TechFreak2003/hia/stargazers"><img src="https://img.shields.io/github/stars/TechFreak2003/hia"></a>
+  <a href="https://github.com/TechFreak2003/hia/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg">
   </a>
 </p>
@@ -19,7 +19,7 @@ AI Agent to analyze blood reports and provide detailed health insights.
 </p>
 
 <p align="center">
-  <a href="https://github.com/harshhh28/hia"><img src="https://raw.githubusercontent.com/harshhh28/hia/main/public/HIA_demo.gif" alt="Usage Demo"></a>
+  <a href="https://github.com/TechFreak2003/hia"><img src="https://raw.githubusercontent.com/TechFreak2003/hia/main/public/HIA_demo.gif" alt="Usage Demo"></a>
 </p>
 
 ## 🌟 Features
@@ -60,89 +60,5 @@ AI Agent to analyze blood reports and provide detailed health insights.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/harshhh28/hia.git
+git clone https://github.com/TechFreak2003/hia.git
 cd hia
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Required environment variables (in `.streamlit/secrets.toml`):
-
-```toml
-SUPABASE_URL = "your-supabase-url"
-SUPABASE_KEY = "your-supabase-key"
-GROQ_API_KEY = "your-groq-api-key"
-```
-
-4. Set up Supabase database schema:
-
-The application requires the following tables in your Supabase database:
-
-![database schema](https://raw.githubusercontent.com/harshhh28/hia/main/public/db/schema.png)
-
-You can use the SQL script provided at `public/db/script.sql` <a href="https://www.github.com/harshhh28/hia/blob/main/public/db/script.sql">[link]</a> to set up the required database schema.
-
-(PS: You can turn off the email confimation on signup in Supabase settings -> signup -> email)
-
-5. Run the application:
-
-```bash
-streamlit run src\main.py
-```
-
-## 📁 Project Structure
-
-```
-hia/
-├── requirements.txt
-├── README.md
-├── src/
-│   ├── main.py                 # Application entry point
-│   ├── auth/                   # Authentication related modules
-│   │   ├── auth_service.py     # Supabase auth integration
-│   │   └── session_manager.py  # Session management
-│   ├── components/             # UI Components
-│   │   ├── analysis_form.py    # Report analysis form
-│   │   ├── auth_pages.py       # Login/Signup pages
-│   │   ├── footer.py          # Footer component
-│   │   └── sidebar.py         # Sidebar navigation
-│   ├── config/                # Configuration files
-│   │   ├── app_config.py      # App settings
-│   │   └── prompts.py         # AI prompts
-│   ├── services/              # Service integrations
-│   │   └── ai_service.py      # AI service integration
-│   ├── agents/                # Agent-based architecture components
-│   │   ├── agent_manager.py   # Agent management
-│   │   └── model_fallback.py  # Model fallback logic
-│   └── utils/                 # Utility functions
-│       ├── validators.py      # Input validation
-│       └── pdf_extractor.py   # PDF processing
-```
-
-## 👥 Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, the development workflow, coding standards, and more.
-
-We appreciate all contributions, from reporting bugs and improving documentation to implementing new features.
-
-## 👨‍💻 Contributors
-
-Thanks to all the amazing contributors who have helped improve this project!
-
-| Avatar | Name | GitHub | Role | Contributions |
-|--------|------|--------|------|---------------|
-| <img src="https://github.com/harshhh28.png" width="50px" height="50px" alt="harshhh28"/> | Harsh Gajjar | [harshhh28](https://github.com/harshhh28) | Project Creator & Maintainer | Core implementation, Documentation |
-
-<!-- To future contributors: Your profile will be added here when your PR is merged! -->
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙋‍♂️ Author
-
-Created by [Harsh Gajjar](https://harshgajjar.vercel.app)
