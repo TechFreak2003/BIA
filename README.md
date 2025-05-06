@@ -1,4 +1,4 @@
-# 🩺 HIA (Health Insights Agent)
+# 🩺 BIA (Blood Report Insights Agent)
 
 AI Agent to analyze blood reports and provide detailed health insights.
 
