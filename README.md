@@ -1,7 +1,7 @@
 
 # 🩺 BIA (Blood Report Insights Agent)
 
-AI Agent to analyze blood reports and provide detailed health insights.
+AI Agent will analyze blood reports and provide detailed health insights.
 
 <p align="center">
   <a href="https://github.com/TechFreak2003/hia/issues"><img src="https://img.shields.io/github/issues/TechFreak2003/hia"></a> 
